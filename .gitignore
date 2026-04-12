@@ -1,3 +1,48 @@
+# =============================================================================
+# Deep Learning / Research project specific
+# =============================================================================
+
+# Saved model weights and checkpoints
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.h5
+*.hdf5
+
+# Training & experiment logs
+logs/
+*.log
+runs/
+wandb/
+mlruns/
+tb_logs/
+lightning_logs/
+
+# Datasets (never commit large data files)
+dataset/
+data/
+datasets/
+*.csv
+*.npy
+*.npz
+*.parquet
+*.feather
+*.nc
+
+# Results / Excel outputs
+excel/
+results/
+outputs/
+*.xlsx
+*.xls
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# =============================================================================
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
